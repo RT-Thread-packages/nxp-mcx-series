@@ -42,7 +42,8 @@ src += ['drivers/fsl_vbat.c']
 src += ['drivers/fsl_waketimer.c']
 src += ['drivers/fsl_wuu.c']
 src += ['drivers/fsl_wwdt.c']
-
+src += ['drivers/fsl_flexcan.c']
+src += ['periph2/fsl_flexcan_edma.c']
 group = DefineGroup('Libraries', src, depend = [''], CPPPATH = path)
 
 Return('group')
