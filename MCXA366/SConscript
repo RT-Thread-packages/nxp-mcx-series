@@ -44,6 +44,7 @@ src += ['drivers/fsl_wuu.c']
 src += ['drivers/fsl_wwdt.c']
 src += ['drivers/fsl_flexcan.c']
 src += ['drivers/fsl_flexcan_edma.c']
+src += ['drivers/fsl_slcd.c']
 group = DefineGroup('Libraries', src, depend = [''], CPPPATH = path)
 
 Return('group')
